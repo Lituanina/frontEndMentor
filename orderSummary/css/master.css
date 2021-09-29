@@ -18,9 +18,8 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
 
-
-
 }
+
 
 .card {
   width: 325px;
@@ -134,4 +133,41 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+@media screen and (min-width:600px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+
+  .card {
+    width: 425px;
+  }
+
+  .card-content {
+    padding: 3rem;
+  }
+
+  .section-payment {
+    justify-content: space-between;
+  }
+
+  .section-payment > img {
+    margin-right: 1rem;
+  }
+
+  .payment-annual {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    font-size: 16px;
+
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+
 }
