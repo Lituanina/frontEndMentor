@@ -62,6 +62,18 @@ body {
   font-size: 14px;
 }
 
+.section-payment > img {
+  margin-right: 1rem;
+}
+
+
+.payment-annual {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+
+}
+
 
 /* BUTTONS */
 
@@ -158,9 +170,6 @@ footer {
   }
 
   .payment-annual {
-    display: flex;
-    flex-direction: column;
-    margin-right: auto;
     font-size: 16px;
 
   }
