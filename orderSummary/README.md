@@ -47,7 +47,10 @@ I've had a gentle introduction to accessibility, and the importance of HTML land
 
 ### Continued development
 
-For future projects, I would like to read up on and apply BEM or SMACSS and use a CSS pre-processor.
+I would like to improve the organization of the stylesheet.
+For future projects, I would like to read up on and apply BEM (or SMACSS) and use a CSS pre-processor.
+
+I also need to read up on accessibility and incorporate it into the design, rather than apply it as an afterthought.
 
 ## Author
 
