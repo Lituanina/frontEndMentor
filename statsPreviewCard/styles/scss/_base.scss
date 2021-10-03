@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  background-color: $primary-dark;
+  font-size: 15px;
+  min-width: 375px;
+  max-width: 1440px;
+
+}
+
+.card {
+  background-color: $primary-light;
+  max-width: 1100px;
+}
+
+
+// TYPOGRAPHY
+
+body {
+  font-family: $font1;
+  color: $neutral-main;
+  text-align: center;
+}
+
+h1 {
+  color: $neutral;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+
+}
+
+@media screen and (min-width: $desktop) {
+  h1 {
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    max-width: 40ch;
+  }
+}
+
+
+h2 {
+  color: $neutral;
+  margin-bottom: 0.25rem;
+}
+
+.text-accent {
+  color: $primary-accent;
+}

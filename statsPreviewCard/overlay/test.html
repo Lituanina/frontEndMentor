@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="test.css">
+    <title></title>
+  </head>
+  <body>
+<h1>CSS: Color overlay techniques</h1>
+    <main>
+
+
+      <div class="card">
+        <div class="card-hero card-hero-image card-blend">
+        </div>
+        <p><strong>background-blend-mode: multiply;</strong>
+        <br>not supported by IE</p>
+      </div>
+
+      <div class="card">
+        <div class="card-hero card-hero-image card-before">
+        </div>
+        <p>using pseudoclass <strong>:before</strong> to add a colored layer
+        with adjusted opacity</p>
+      </div>
+
+      <div class="card">
+        <div class="card-after">
+        </div>
+        <p>using pseudoclass <strong>:after</strong> to add opacity to the background image.
+          <br><a href="https://css-tricks.com/snippets/css/transparent-background-images/">CSS-Tricks</a>
+
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-hero card-linear card-hero-image">
+        </div>
+        <p><strong>linear-gradient</strong> (single color + opacity)</p>
+      </div>
+
+      <div class="card">
+        <div class="card-hero card-shadow">
+        </div>
+        <p><strong>box-shadow: inset</strong>
+        <br>IE partial support</p>
+      </div>
+
+      <div class="card">
+        <div class="card-hero card-hero-image">
+          <div class="card-hero card-layer">
+
+          </div>
+
+        </div>
+        <p><strong>child div</strong> color layer</p>
+      </div>
+
+
+
+    </main>
+
+
+  </body>
+</html>
