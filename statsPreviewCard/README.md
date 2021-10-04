@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screen-desk.png)
-![](./screen-mobile.png)
+![desk](./screen-desk.png)
+![mobile](./screen-mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [ https://www.frontendmentor.io/solutions/mobilefirst-card-component-using-sass-OBPjHqR-7]( https://www.frontendmentor.io/solutions/mobilefirst-card-component-using-sass-OBPjHqR-7)
 - Live Site URL: [https://lituanina.github.io/frontEndMentor/statsPreviewCard/](https://lituanina.github.io/frontEndMentor/statsPreviewCard/)
 
 ## My process
