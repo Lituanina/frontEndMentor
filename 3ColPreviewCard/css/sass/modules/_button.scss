@@ -1,0 +1,35 @@
+.bttn {
+  width: 135px;
+  margin-top: 1.5rem;
+  margin-bottom: $space;
+  padding: 0.85rem;
+  border-radius: 50px;
+  background-color: $neutral-accent;
+  text-align: center;
+  border: 2px solid;
+  transition: 0.2s;
+}
+
+a[class~="bttn"] {
+  text-decoration: none;
+
+
+}
+
+.bttn:hover {
+  background-color: #11ffee00;
+  border: $neutral-accent 2px solid;
+  color: $neutral-accent;
+}
+
+.bttn-orange {
+  color: $bright-orange;
+}
+
+.bttn-dark {
+  color: $dark-cyan;
+}
+
+.bttn-very-dark {
+  color: $very-dark-cyan;
+}

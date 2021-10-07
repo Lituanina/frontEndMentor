@@ -1,0 +1,38 @@
+$card-border-radius: 7px;
+
+.card {
+  width: 325px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5rem;
+
+}
+
+img {
+  width: 4rem;
+  margin-bottom: $space;
+}
+
+.card-orange {
+  background-color: $bright-orange;
+}
+
+.card-dark {
+  background-color: $dark-cyan;
+}
+
+.card-very-dark {
+  background-color: $very-dark-cyan;
+}
+
+
+.card:first-of-type {
+  border-top-left-radius: $card-border-radius;
+  border-top-right-radius: $card-border-radius;
+}
+
+.card:last-of-type {
+  border-bottom-left-radius: $card-border-radius;
+  border-bottom-right-radius: $card-border-radius;
+}

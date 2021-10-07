@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  background-color: $neutral;
+  font-size: 15px;
+  min-width: 375px;
+  max-width: 1440px;
+
+}
+
+/* Typography */
+
+body {
+  font-family: $font1;
+  color: $neutral;
+}
+
+h1 {
+  font-family: $font2;
+  font-size: 2.5rem;
+  color: $neutral-accent;
+  text-transform: uppercase;
+  margin-bottom: $space;
+}
+
+p {
+  max-width: 25ch;
+
+}

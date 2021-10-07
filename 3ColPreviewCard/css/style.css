@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  min-width: 375px;
+  max-width: 1440px;
+}
+
+/* Typography */
+body {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+p {
+  max-width: 25ch;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin: 5rem auto;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.card {
+  width: 325px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5rem;
+}
+
+img {
+  width: 4rem;
+  margin-bottom: 2rem;
+}
+
+.card-orange {
+  background-color: #e38826;
+}
+
+.card-dark {
+  background-color: #006970;
+}
+
+.card-very-dark {
+  background-color: #004241;
+}
+
+.card:first-of-type {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.card:last-of-type {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.bttn {
+  width: 135px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0.85rem;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+  border: 2px solid;
+  transition: 0.2s;
+}
+
+a[class~=bttn] {
+  text-decoration: none;
+}
+
+.bttn:hover {
+  background-color: #11ffee00;
+  border: #f2f2f2 2px solid;
+  color: #f2f2f2;
+}
+
+.bttn-orange {
+  color: #e38826;
+}
+
+.bttn-dark {
+  color: #006970;
+}
+
+.bttn-very-dark {
+  color: #004241;
+}
+
+/*# sourceMappingURL=style.css.map */
