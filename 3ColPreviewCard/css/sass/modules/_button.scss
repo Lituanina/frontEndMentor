@@ -10,6 +10,13 @@
   transition: 0.2s;
 }
 
+@media screen and (min-width: $desktop) {
+  .bttn {
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+}
+
 a[class~="bttn"] {
   text-decoration: none;
 

@@ -29,6 +29,11 @@ p {
   max-width: 25ch;
 }
 
+@media screen and (min-width: 1000px) {
+  p {
+    max-width: 23ch;
+  }
+}
 body {
   height: 100vh;
   display: flex;
@@ -39,6 +44,11 @@ main {
   margin: 5rem auto;
 }
 
+@media screen and (min-width: 1000px) {
+  main {
+    display: flex;
+  }
+}
 footer {
   margin-top: auto;
 }
@@ -48,7 +58,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 2.5rem;
+  padding: 3rem 3rem 1rem;
 }
 
 img {
@@ -78,6 +88,24 @@ img {
   border-bottom-right-radius: 7px;
 }
 
+@media screen and (min-width: 1000px) {
+  .card {
+    width: 300px;
+    min-height: 500px;
+  }
+
+  .card:first-of-type {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 7px;
+  }
+
+  .card:last-of-type {
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 7px;
+  }
+}
 .bttn {
   width: 135px;
   margin-top: 1.5rem;
@@ -90,6 +118,12 @@ img {
   transition: 0.2s;
 }
 
+@media screen and (min-width: 1000px) {
+  .bttn {
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+}
 a[class~=bttn] {
   text-decoration: none;
 }

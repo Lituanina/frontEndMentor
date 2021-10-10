@@ -8,6 +8,12 @@ main {
   margin: 5rem auto;
 }
 
+@media screen and (min-width: $desktop) {
+  main {
+    display: flex;
+  }
+}
+
 footer {
   margin-top: auto;
 }

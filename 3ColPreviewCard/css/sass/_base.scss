@@ -33,3 +33,11 @@ p {
   max-width: 25ch;
 
 }
+
+@media screen and (min-width: $desktop) {
+  p {
+    max-width: 23ch;
+
+  }
+
+}
