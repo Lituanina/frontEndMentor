@@ -6,8 +6,8 @@
   border-radius: 50px;
   background-color: $neutral-accent;
   text-align: center;
-  border: 2px solid;
-  transition: 0.2s;
+  border: 2px solid  #11ffee00;
+
 }
 
 @media screen and (min-width: $desktop) {
@@ -27,6 +27,7 @@ a[class~="bttn"] {
   background-color: #11ffee00;
   border: $neutral-accent 2px solid;
   color: $neutral-accent;
+  transition: ease all .5s;
 }
 
 .bttn-orange {

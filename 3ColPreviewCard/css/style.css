@@ -114,8 +114,7 @@ img {
   border-radius: 50px;
   background-color: #f2f2f2;
   text-align: center;
-  border: 2px solid;
-  transition: 0.2s;
+  border: 2px solid #11ffee00;
 }
 
 @media screen and (min-width: 1000px) {
@@ -132,6 +131,7 @@ a[class~=bttn] {
   background-color: #11ffee00;
   border: #f2f2f2 2px solid;
   color: #f2f2f2;
+  transition: ease all 0.5s;
 }
 
 .bttn-orange {
